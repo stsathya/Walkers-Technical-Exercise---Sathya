@@ -1,7 +1,7 @@
 # Stage 1
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build
 WORKDIR /app
-COPY /AssignmentDemoWebApp/ /app
+COPY /WebApplication2/ /app
 EXPOSE 80
 EXPOSE 443
 
@@ -9,4 +9,4 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/core/aspnet:3.1 AS final
 WORKDIR /app
 COPY --from=build /app .
-ENTRYPOINT ["dotnet", "AssignmentDemoWebApp.dll"]
+ENTRYPOINT ["dotnet", "WebApplication2.dll"]

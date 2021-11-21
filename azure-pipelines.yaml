@@ -5,11 +5,11 @@ trigger:
 variables:
   buildConfiguration: 'Release'
   location: 'West Europe'
-  acrHostName: 'wlkdemoacr.azurecr.io'
-  acrName: 'wlkdemoacr'
-  rgName: 'wlkdemo-rg'
-  imageName: 'wlkdemo'
-  webAppName: 'WlkDemoWebApp'
+  acrHostName: 'cswebappdocker004acrsts.azurecr.io'
+  acrName: 'cswebappdocker004acrsts'
+  rgName: 'cswebappdocker004-rgsts'
+  imageName: 'cswebappdocker004sts'
+  webAppName: 'cswebappdocker004sts'
 
 stages:
 

@@ -6,7 +6,7 @@ Deploy Web Application to Azure using Infrastructure as Code(IaC). This web appl
 # Getting Started
 1. Download Git repository from link(https://github.com/stsathya/Walkers-Technical-Exercise---Sathya.git) and import to Azure Devops Repo
 
-2. Create Service connection
+2. Create Service connection in Azure project settings
 - Go to Project Settings 
 - Select Service Connections 
 - Click New Service Connection
@@ -15,6 +15,7 @@ Deploy Web Application to Azure using Infrastructure as Code(IaC). This web appl
 - Select Subscription level and specify Service Connection Name as "AzureSC"
 
 3. Create New Pipeline with the existing pipeline file 'azure-pipelines.yaml' available in root folder of imported Azure repo.
+
 4. Run the pipeline
 
 # Test Web Application

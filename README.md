@@ -27,3 +27,9 @@ Instead of {id}, pass number between (1 to 20) to get JSON output.
 To try from POSTMAN or any other API tool:
 
 GET https://walkwebappdockeracr.azurewebsites.net/assignment/api/{id}
+
+# Reason for choosing the technology
+Below is the components choosen and the reason,
+1. .Net Core 3.1 - Bcs it can run on windows, Mac, or Linux
+2. Azure App Service - To dockerise my application and to host linux container in App service. It's easy to setup CI/CD in Azure Devops
+3. ARM Template - Because they are native to the Azure platform"

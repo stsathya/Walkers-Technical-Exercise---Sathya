@@ -5,6 +5,7 @@ Deploy Web Application to Azure using Infrastructure as Code(IaC). This web appl
 
 # Getting Started
 1. Download Git repository from below link and import to Azure Devops Repo
+https://github.com/stsathya/Walkers-Technical-Exercise---Sathya.git
 
 2. Create Service connection
 - Go to Project Settings 

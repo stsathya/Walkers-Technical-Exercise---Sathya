@@ -19,10 +19,10 @@ Deploy Web Application to Azure using Infrastructure as Code(IaC). This web appl
 
 # Test Web Application
 Post the successful pipeline deployment, go to browser and test below link
-'https://wlkdemowebapp.azurewebsites.net/assignment/api/{id}'
+'https://walkwebappdockeracr.azurewebsites.net/assignment/api/{id}'
 
 Instead of {id}, pass number between (1 to 20) to get JSON output.
 
 To try from POSTMAN or any other API tool:
 
-GET https://wlkdemowebapp.azurewebsites.net/assignment/api/{id}
+GET https://walkwebappdockeracr.azurewebsites.net/assignment/api/{id}

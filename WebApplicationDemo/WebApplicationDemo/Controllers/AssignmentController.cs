@@ -48,8 +48,7 @@ namespace WebApplicationDemo.Controllers
         [HttpGet("api/{id}")]
         public JsonResult AjaxMethod(int id)
         {
-            if(id == 0) { throw new HttpResponseException(HttpStatusCode.NotFound); }
-            if (id <= 20)
+            if (id <= 20 && id != 0)
             {
                 var result = new Assignment
                 {

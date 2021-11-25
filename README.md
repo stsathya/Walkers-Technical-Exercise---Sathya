@@ -14,7 +14,7 @@ Deploy Web Application to Azure using Infrastructure as Code(IaC). This web appl
 - Select Service Principle(automatic) and click Next
 - Select Subscription level and specify Service Connection Name as "AzureSC"
 
-3. Select Pipeline and create New Pipeline,
+3. Select Set up Build from repo
 - Select Existing Azure Pipeline YAML file
 - In the Path, select the Pipeline file and click continue
 - Click Run
